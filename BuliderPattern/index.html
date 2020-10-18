@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Latest compiled and minified JS -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    
+    <!-- Latest compiled and minified JS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div id="options" class="flex" style="display:flex;flex-direction: column; width:200px;margin:20px;">
+        <label for="Color">Select Color</label>
+        <select id="Color">
+        </select>
+        <label for="Height">Avaible Heights</label>
+        <select id="Height">
+        </select>
+        <label for="Diamiter"> Diamiter</label>
+        <select id="Diamiter">
+        </select>
+        <label for="Holes"> Do you want some Holes?</label>
+        <select id="Holes">
+        </select>
+        <label for="HowManyEars"> How many ears should have?</label>
+        <select id="HowManyEars">
+        </select>
+        <label for="Patterns"> Avaible Patterns</label>
+        <select id="Patterns">
+        </select>
+       
+       <button type="button" id="createCup" class="btn btn-success" style="margin-top: 20px;">GetMeACup</button>
+       
+        
+    </div>
+    
+    <h1>Cup Render</h1>
+<div class="container" id="cup" style="float: left;">
+   
+</div>
+
+    
+</body>
+<script type="module" src="./controler.js"></script>
+</html>
